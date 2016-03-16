@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Total Finance $</string>
+    <string name="action_config">Configurações</string>
+    <string name="hello_world">Olá Mundo!</string>
+</resources>
