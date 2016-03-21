@@ -27,7 +27,7 @@ public class TblConta extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "CREATE TABLE" + TABELA + "("
+        String sql = "CREATE TABLE " + TABELA + "("
                 + ID_CONTA + " integer primary key autoincrement,"
                 + NM_CONTA + " text not null,"
                 + DS_CONTA + " text,"
