@@ -278,13 +278,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="action_about">Sobre</string>
-    <string name="app_name">Mensagens BD WhatsApp</string>
+    <string name="account">Título da Conta</string>
+    <string name="accounts">Contas</string>
+    <string name="action_config">Configurações</string>
+    <string name="app_name">Total Finance $</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="hello_world">Olá Mundo!</string>
+    <string name="register">Cadastrar</string>
+    <string name="status_account">Ativo</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_main">$ Finance Total</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

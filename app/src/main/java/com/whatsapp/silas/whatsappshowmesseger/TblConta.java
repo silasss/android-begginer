@@ -43,6 +43,7 @@ public class TblConta extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        // Only Alter table
     }
 
 }

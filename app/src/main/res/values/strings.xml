@@ -2,4 +2,9 @@
     <string name="app_name">Total Finance $</string>
     <string name="action_config">Configurações</string>
     <string name="hello_world">Olá Mundo!</string>
+    <string name="title_main">$ Finance Total</string>
+    <string name="accounts">Contas</string>
+    <string name="status_account">Ativo</string>
+    <string name="account">Título da Conta</string>
+    <string name="register">Cadastrar</string>
 </resources>

@@ -12,13 +12,69 @@
     tools:context="com.whatsapp.silas.whatsappshowmesseger.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"></GridLayout>
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:rowCount="9"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:id="@+id/content_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contas"
+            android:id="@+id/title_accounts"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:paddingBottom="15dp"
+            android:singleLine="false"
+            android:textStyle="bold" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ativo"
+            android:id="@+id/swt_status_account"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:checked="true" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ipt_name_account"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:hint="Nome da Conta" />
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/ipt_balance_account"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:hint="Saldo" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="230dp"
+            android:layout_height="35dp"
+            android:text="Cadastrar"
+            android:id="@+id/btn_insert_account"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:enabled="true"
+            android:elegantTextHeight="false"
+            android:clickable="true"
+            android:contextClickable="false"
+            android:background="#5a8fc8"
+            android:layout_marginTop="15dp" />
+
+    </GridLayout>
+
 </RelativeLayout>
